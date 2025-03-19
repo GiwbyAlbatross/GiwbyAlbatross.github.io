@@ -12,6 +12,7 @@ nav { /* navbar, automatically a flex element */
   background-color: #0affea;
   display: flex;
   color: #000;
+  margin: 0px;
 }
 
 .button {
