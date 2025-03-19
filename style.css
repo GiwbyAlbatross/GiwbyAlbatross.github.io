@@ -8,7 +8,8 @@ body { /* default theme */
   background-color: #0a0f11;
 }
 
-nav { /* navbar, when I add that */
+nav { /* navbar, automatically a flex element */
   background-color: #0affea;
+  display: flex;
   color: #fff;
 }
