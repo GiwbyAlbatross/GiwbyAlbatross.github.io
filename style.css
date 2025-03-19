@@ -16,7 +16,6 @@ nav { /* navbar, automatically a flex element */
 
 .button {
   border: none;
-  color: white;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
