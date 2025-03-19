@@ -1,0 +1,14 @@
+body { /* default theme */
+  background-color: #0f0a11;
+  font-family: Arial, Tahoma, sans-serif;
+  color: #fafdff;
+}
+
+.background-alternate { /* alternate background class */
+  background-color: #0a0f11;
+}
+
+nav { /* navbar, when I add that */
+  background-color: #0affea;
+  color: #fff;
+}
