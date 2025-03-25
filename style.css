@@ -33,6 +33,9 @@ nav { /* navbar, automatically a flex element */
   background-color: #eee;
 }
 
+a {
+  color: #d1f;
+}
 a:link {
   text-decoration: none;
 }
