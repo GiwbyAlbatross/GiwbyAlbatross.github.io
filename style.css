@@ -15,6 +15,10 @@ nav { /* navbar, automatically a flex element */
   margin: 0px;
 }
 
+.nav {
+  color: #61f;
+}
+
 .button {
   border: none;
   padding: 15px 32px;
