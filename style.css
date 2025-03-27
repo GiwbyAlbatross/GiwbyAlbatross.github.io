@@ -11,7 +11,7 @@ body { /* default theme */
 nav { /* navbar, automatically a flex element */
   background-color: #0affea;
   display: flex;
-  color: #000;
+  color: #61f;
   margin: 0px;
 }
 
