@@ -1,6 +1,6 @@
 // load an entire page's content
 
-const src_loc = document.location.origin +'/pages/'+ document.location.pathname.split('/')[-1]+'.html';
+const src_loc = document.location.origin +'/pages/'+ document.location.pathname.split('/').at(-1)+'.html';
 
 // DEBUG
 window.alert("Requesting page at " + src_loc)
