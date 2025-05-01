@@ -2,6 +2,9 @@
 
 const src_loc = document.location.origin +'/pages/'+ document.location.pathname.split('/')[-1]+'.html';
 
+// DEBUG
+window.alert("Requesting page at " + src_loc)
+
 const req = XMLHttpRequest();
 
 function actuallyLoadThePage(e) {
