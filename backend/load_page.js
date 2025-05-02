@@ -5,7 +5,7 @@ const src_loc = document.location.origin +'/pages/'+ document.location.pathname.
 // DEBUG
 console.log("Requesting page at " + src_loc)
 
-const req = XMLHttpRequest();
+const req = new XMLHttpRequest(); // I'm too used to python syntax I forgot to use 'new'
 
 function actuallyLoadThePage(e) {
     if (req.responseCode == 404) {
