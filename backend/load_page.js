@@ -17,5 +17,5 @@ function actuallyLoadThePage(e) {
     }
 }
 
-req.addEventListener("load", actuallyLoadThePage);
+req.onload = actuallyLoadThePage;
 req.open("GET", src_loc);
