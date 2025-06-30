@@ -2,8 +2,8 @@
   <head>
     <title>Hopefully this should kill the browser</title>
     <script>
-      function d() {while (true) document.body.innerHTML += 'hello ';};
-      function onl() {setInterval(d, 50);};
+      function d() {document.body.innerHTML += 'hello ';};
+      function onl() {setInterval(d, 500);};
     </script>
   </head>
   <body onload="onl();">
