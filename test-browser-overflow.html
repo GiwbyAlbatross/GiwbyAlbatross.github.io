@@ -2,10 +2,10 @@
   <head>
     <title>Hopefully this should kill the browser</title>
     <script>
-      document.body.onload = function () {while (true) document.body.innerHTML += 'hello ';};
+      function onl() {while (true) document.body.innerHTML += 'hello ';};
     </script>
   </head>
-  <body>
+  <body onload="onl();">
     <h1>Browser Breaker</h1>
   </body>
 </html>
